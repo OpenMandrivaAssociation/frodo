@@ -117,3 +117,34 @@ rm -rf %{buildroot}
 %{_liconsdir}/frodo.png
 %{_datadir}/applications/mandriva-%{name}*.desktop
 
+
+
+%changelog
+* Sun Jul 31 2011 Andrey Bondrov <abondrov@mandriva.org> 4.2-0.20030707.4mdv2012.0
++ Revision: 692544
+- imported package frodo
+
+
+* Sun Jul 24 2011 Andrey Bondrov <bondrov@math.dvgu.ru> 4.2-0.20030707.4mdv2011.0
+- Import from PLF
+- Remove PLF reference
+
+* Sun Aug 20 2006 Olivier Thauvin <nanardon@zarb.org> 4.2-0.20030707.3plf
+- xdg menu
+
+* Sun Apr 10 2005 Sylvie Terjan <erinmargault@zarb.org> 4.2-0.20030707.2plf
+- rebuild for SDL-devel
+- add plf reason
+- remove redundant prefix tag
+
+* Mon Dec 22 2003 Olivier Thauvin <thauvin@aerov.jussieu.fr> 4.2-0.20030707.1plf
+- plf introduction
+
+* Sat Jul 05 2003 andi payn <payn@myrealbox.com> 4.2-0.20030707.1mdk
+- CVS version (now GPL'd), essentially a 4.2rc except for docs
+- borrowed heavily from new specfile in package
+
+* Sat Jul 05 2003 andi payn <payn@myrealbox.com> 4.1b-1mdk
+- Initial package
+
+# end of file
