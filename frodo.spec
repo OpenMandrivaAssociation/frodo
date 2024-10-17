@@ -14,7 +14,7 @@ Source11:      Frodo.32.png
 Source12:      Frodo.48.png
 License:       GPLv2
 Group:         Emulators
-Url:           http://frodo.cebix.net/
+Url:           https://frodo.cebix.net/
 BuildRoot:     %{_tmppath}/%{name}-buildroot
 BuildRequires: SDL-devel >= 1.2.0
 
