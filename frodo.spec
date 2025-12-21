@@ -16,6 +16,11 @@ License:       GPLv2
 Group:         Emulators
 Url:           https://frodo.cebix.net/
 BuildRoot:     %{_tmppath}/%{name}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: SDL-devel >= 1.2.0
 
 %description
