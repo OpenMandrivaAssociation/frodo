@@ -1,8 +1,8 @@
 %define name    frodo
 %define version 4.2
 %define cvsdate 20030707
-%define rel %mkrel 4
-%define release 0.%{cvsdate}.%{rel}
+%define rel 5
+%define release 0.%{cvsdate}.%{rel}.1
 
 Summary:       Free portable C64 emulator
 Name:          %{name}
